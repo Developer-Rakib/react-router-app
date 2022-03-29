@@ -13,7 +13,7 @@ const PostDetails = () => {
     }, [post])
     return (
         <div style={{ width: '400px', margin: "0 auto", boxShadow: "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px", padding: '10px', marginTop: '30px', borderRadius: '8px' }}>
-            <h1>post {post.id}</h1>
+            <h1>Post {post.id}</h1>
             <h3>{post.title}</h3>
             <p>{post.body}</p>
         </div>
